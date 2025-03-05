@@ -1,0 +1,15 @@
+name = "prolog"
+description = "Simple Prolog library"
+version = "1.0.0"
+
+authors = ["Professor David C. Luckham <Anna-Request@Anna.Stanford.EDU>",
+           "Dale Stanbrough <dale@cs.rmit.edu.au>"]
+	   
+maintainers = ["Jesper Quorning <jesper.quorning@gmail.com>"]
+maintainers-logins = ["jquorning"]
+
+licenses = "custom-anna"
+website = "https://github.com/jquorning/Prolog"
+tags = ["prolog", "logic"]
+
+project-files = ["prolog_demo.gpr", "prolog_test.gpr"]
