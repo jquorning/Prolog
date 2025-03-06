@@ -12,4 +12,4 @@ licenses = "custom-anna"
 website = "https://github.com/jquorning/Prolog"
 tags = ["prolog", "logic"]
 
-project-files = ["prolog_demo.gpr", "prolog_test.gpr"]
+project-files = ["prolog.gpr", "prolog_demo.gpr", "prolog_test.gpr"]
