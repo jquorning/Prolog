@@ -27,7 +27,7 @@ with Prolog.Input_Output;     use Prolog.Input_Output;
 
 with Implementation_Dependent_Routines;
 with Anna_Filename_Utilities;
-with Sequential_IO;
+with Ada.Sequential_IO;
 
 package body Prolog.Ada_Logic is
 
@@ -54,7 +54,7 @@ package body Prolog.Ada_Logic is
       Nvars  : Natural := 0;
    end record;
 
-   package Term_Rec_Io is new Sequential_IO (Speed_Node);
+   package Term_Rec_Io is new Ada.Sequential_IO (Speed_Node);
    use Term_Rec_Io;
 
 
